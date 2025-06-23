@@ -75,6 +75,7 @@ namespace UnicomTicManageSystemApp
             this.btnAddSection.TabIndex = 3;
             this.btnAddSection.Text = "ADD";
             this.btnAddSection.UseVisualStyleBackColor = true;
+            this.btnAddSection.Click += new System.EventHandler(this.btnAddSection_Click_1);
             // 
             // btnUpdateSection
             // 

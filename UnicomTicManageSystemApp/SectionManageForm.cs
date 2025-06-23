@@ -139,5 +139,10 @@ namespace UnicomTicManageSystemApp
                 txtSectionName.Text = dgvSections.Rows[e.RowIndex].Cells["SectionName"].Value.ToString();
             }
         }
+
+        private void btnAddSection_Click_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }

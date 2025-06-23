@@ -15,7 +15,7 @@ namespace UnicomTicManageSystemApp
         {
             InitializeComponent();
 
-            // Event handlers attach பண்ணலாம் இதோடு கூட
+            // Event handlers attach 
             this.Load += RegisterUser_Load;
 
             btnAdd.Click += btnAdd_Click;

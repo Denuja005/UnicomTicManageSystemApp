@@ -150,6 +150,7 @@ namespace UnicomTicManageSystemApp
             this.btnUpdate.TabIndex = 11;
             this.btnUpdate.Text = "UPDATE";
             this.btnUpdate.UseVisualStyleBackColor = true;
+            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click_1);
             // 
             // btnDelete
             // 
@@ -168,6 +169,7 @@ namespace UnicomTicManageSystemApp
             this.btnView.TabIndex = 13;
             this.btnView.Text = "VIEW";
             this.btnView.UseVisualStyleBackColor = true;
+            this.btnView.Click += new System.EventHandler(this.btnView_Click_1);
             // 
             // dgvLectures
             // 

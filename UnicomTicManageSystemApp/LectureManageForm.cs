@@ -201,5 +201,15 @@ namespace UnicomTicManageSystemApp
             cmbSection.SelectedIndex = -1;
             selectedLectureId = -1;
         }
+
+        private void btnView_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnUpdate_Click_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }

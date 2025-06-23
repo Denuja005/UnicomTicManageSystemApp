@@ -46,7 +46,7 @@ namespace UnicomTicManageSystemApp
             // 
             // btnMarkManage
             // 
-            this.btnMarkManage.Location = new System.Drawing.Point(199, 270);
+            this.btnMarkManage.Location = new System.Drawing.Point(199, 91);
             this.btnMarkManage.Name = "btnMarkManage";
             this.btnMarkManage.Size = new System.Drawing.Size(378, 45);
             this.btnMarkManage.TabIndex = 11;

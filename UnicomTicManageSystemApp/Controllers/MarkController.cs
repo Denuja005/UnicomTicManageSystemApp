@@ -9,7 +9,7 @@ namespace UnicomTicManageSystemApp.Controllers
 {
     public class MarksController
     {
-        // Marks-ஐ எல்லாம் பெற (basic)
+        
         public List<Mark> GetAllMarks()
         {
             var marks = new List<Mark>();
@@ -36,7 +36,7 @@ namespace UnicomTicManageSystemApp.Controllers
             return marks;
         }
 
-        // புதிய Mark சேர்க்க
+        
         public void AddMark(Mark mark)
         {
             using (var conn = DbCon.GetConnection())
@@ -52,7 +52,7 @@ namespace UnicomTicManageSystemApp.Controllers
             }
         }
 
-        // Mark update செய்ய
+        
         public void UpdateMark(Mark mark)
         {
             using (var conn = DbCon.GetConnection())
@@ -70,7 +70,7 @@ namespace UnicomTicManageSystemApp.Controllers
             }
         }
 
-        // Mark நீக்க
+        
         public void DeleteMark(int markId)
         {
             using (var conn = DbCon.GetConnection())
@@ -81,7 +81,7 @@ namespace UnicomTicManageSystemApp.Controllers
             }
         }
 
-        // MarkId மூலம் ஒரே ஒரு Mark detail க்காக
+        // MarkId - Mark detail
         public Mark GetMarkById(int markId)
         {
             using (var conn = DbCon.GetConnection())

@@ -7,9 +7,9 @@ namespace UnicomTicManageSystemApp.Data
     {
         public static void CreateTables()
         {
-            using (var conn = DbCon.GetConnection())
+            using (var conn = DbCon.GetConnection())//using -auto close for db connection
             {
-                var cmd = conn.CreateCommand();
+                var cmd = conn.CreateCommand();//sqlite command ""object"" create panum
 
                 cmd.CommandText = @"
                  CREATE TABLE IF NOT EXISTS Users (
@@ -160,7 +160,7 @@ namespace UnicomTicManageSystemApp.Data
                     );
                 ";
 
-                cmd.ExecuteNonQuery();
+                cmd.ExecuteNonQuery();//command ah db la run panum
             }
         }
     }

@@ -18,10 +18,10 @@ namespace UnicomTicManageSystemApp
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
 
-            // முதலில் டேபிள் உருவாக்கத்தை செய்கிறோம்
+            
             DatabaseInitializer.CreateTables();
 
-            // அப்புறம் லாக்கின் ஃபார்மை தொடங்குகிறோம்
+           
             Application.Run(new LoginForm());
         }
     }

@@ -8,7 +8,7 @@ namespace UnicomTicManageSystemApp.Controllers
 {
     public class RoomController
     {
-        // எல்லா Rooms-ஐ Get செய்யும்
+        //  Rooms- Get 
         public List<Room> GetAllRooms()
         {
             var rooms = new List<Room>();
@@ -32,7 +32,7 @@ namespace UnicomTicManageSystemApp.Controllers
             return rooms;
         }
 
-        // Room-ஐ Add செய்யும்
+        
         public void AddRoom(Room room)
         {
             using (var conn = DbCon.GetConnection())
@@ -44,7 +44,7 @@ namespace UnicomTicManageSystemApp.Controllers
             }
         }
 
-        // Room-ஐ Update செய்யும்
+        
         public void UpdateRoom(Room room)
         {
             using (var conn = DbCon.GetConnection())
@@ -79,7 +79,7 @@ namespace UnicomTicManageSystemApp.Controllers
             return null;
         }
 
-        // Room-ஐ Delete செய்யும்
+        
         public void DeleteRoom(int roomId)
         {
             using (var conn = DbCon.GetConnection())

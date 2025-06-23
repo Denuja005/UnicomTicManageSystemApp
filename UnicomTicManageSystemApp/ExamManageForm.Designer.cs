@@ -111,6 +111,7 @@ namespace UnicomTicManageSystemApp
             this.btnUpdateExam.TabIndex = 7;
             this.btnUpdateExam.Text = "UPDATE";
             this.btnUpdateExam.UseVisualStyleBackColor = true;
+            this.btnUpdateExam.Click += new System.EventHandler(this.btnUpdateExam_Click_1);
             // 
             // btnDeleteExam
             // 

@@ -31,7 +31,7 @@ namespace UnicomTicManageSystemApp.Controllers
             return subjects;
         }
 
-        // இதுதான் நீங்கள் கேட்ட 'GetBySectionId' மெத்தட்
+       
         public List<Subject> GetBySectionId(int sectionId)
         {
             var subjects = new List<Subject>();
